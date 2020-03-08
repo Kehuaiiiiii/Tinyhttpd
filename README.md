@@ -1,3 +1,25 @@
+TinyHttpd for Ubuntu
+
+
+
+去除了程序中出现的一些不恰当写法和warning
+
+自定义端口启动
+
+
+
+使用方法：
+
+1、修改`/htdocs/color.cgi`，打开文件后的第一行，路径可能需要修改，具体路径请在本机上执行`which perl`查看
+
+2、修改`/htdocs/color.cgi`权限，运行`chmod +x /htdocs/color.cgi`
+
+3、运行`make`
+
+4、运行`./server [port]`
+
+---
+
 A mirror for tinyhttpd(Tinyhttpd非官方镜像,Fork自[sourceForge](https://sourceforge.net/projects/tiny-httpd/),仅供学习)
 
 测试CGI时需要本机安装PERL，同时安装perl-cgi
